@@ -16,7 +16,7 @@ Airplane.prototype.takeOff = function () {
   this.isFlying = true;
 };
 Airplane.prototype.land = function () {
-  this.isFlying = false;
+  this.isFlying = false;   
 };
 
 
@@ -36,7 +36,7 @@ Airplane.prototype.land = function () {
     - Give instances of Person the ability to `.poop()`:
         + When an instance poops, its `stomach` should empty.
     - Give instances of Person a method `.toString()`:
-        + It should return a string with `name` and `age`. Example: "Mary, 50"
+        + It should return a string with `name` and `age`. Example: "Mary, 5"
 */
 
 function Person(name, age) {
